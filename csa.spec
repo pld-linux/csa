@@ -12,7 +12,7 @@ Group:		Applications/System
 # .src.rpm at ftp://oss.sgi.com/projects/csa/download/
 Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	8a0f4a052cd9a6a6ad7227fc0b750345
-URL:            http://oss.sgi.com/projects/csa/
+URL:		http://oss.sgi.com/projects/csa/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
