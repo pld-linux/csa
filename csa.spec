@@ -3,7 +3,7 @@
 # - %%files - FHS compliance (/var/csa is invalid)
 # 
 Summary:	System job accounting
-Summary(pl.UTF-8):   Rozliczanie zadań systemowych
+Summary(pl.UTF-8):	Rozliczanie zadań systemowych
 Name:		csa
 Version:	2.2.0
 Release:	0.1
@@ -40,7 +40,7 @@ działania systemu.
 
 %package libs
 Summary:	CSA library
-Summary(pl.UTF-8):   Biblioteka CSA
+Summary(pl.UTF-8):	Biblioteka CSA
 Group:		Libraries
 
 %description libs
@@ -51,7 +51,7 @@ Biblioteka CSA.
 
 %package devel
 Summary:	Header files for CSA library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki CSA
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki CSA
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
@@ -63,7 +63,7 @@ Pliki nagłówkowe biblioteki CSA.
 
 %package static
 Summary:	Static CSA library
-Summary(pl.UTF-8):   Statyczna biblioteka CSA
+Summary(pl.UTF-8):	Statyczna biblioteka CSA
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
