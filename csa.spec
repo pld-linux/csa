@@ -3,7 +3,7 @@
 # - %%files - FHS compliance (/var/csa is invalid)
 # 
 Summary:	System job accounting
-Summary(pl):	Rozliczanie zadaÒ systemowych
+Summary(pl.UTF-8):   Rozliczanie zada≈Ñ systemowych
 Name:		csa
 Version:	2.2.0
 Release:	0.1
@@ -28,49 +28,49 @@ fees to specific login accounts. CSA takes this per-process accounting
 information and combines it by job identifier (jid) within system boot
 uptime periods.
 
-%description -l pl
-Linux Comprehensive System Accounting (CSA) to po≥±czenie ≥aty na
-j±dro Linuksa, ≥adowalnego modu≥u j±dra csa oraz zbioru programÛw w C
-i skryptÛw pow≥oki. CSA dostarcza metody do gromadzenia danych o
-wykorzystaniu zasobÛw przez kaødy proces, monitorowania wykorzystania
-dysku oraz pobierania op≥at za konkretne konta. CSA pobiera te
-informacje rozrachunkowe dla kaødego procesu i ≥±czy je po
+%description -l pl.UTF-8
+Linux Comprehensive System Accounting (CSA) to po≈ÇƒÖczenie ≈Çaty na
+jƒÖdro Linuksa, ≈Çadowalnego modu≈Çu jƒÖdra csa oraz zbioru program√≥w w C
+i skrypt√≥w pow≈Çoki. CSA dostarcza metody do gromadzenia danych o
+wykorzystaniu zasob√≥w przez ka≈ºdy proces, monitorowania wykorzystania
+dysku oraz pobierania op≈Çat za konkretne konta. CSA pobiera te
+informacje rozrachunkowe dla ka≈ºdego procesu i ≈ÇƒÖczy je po
 identyfikatorze zadania (jid - job identifier) w ramach czasu
-dzia≥ania systemu.
+dzia≈Çania systemu.
 
 %package libs
 Summary:	CSA library
-Summary(pl):	Biblioteka CSA
+Summary(pl.UTF-8):   Biblioteka CSA
 Group:		Libraries
 
 %description libs
 CSA library.
 
-%description libs -l pl
+%description libs -l pl.UTF-8
 Biblioteka CSA.
 
 %package devel
 Summary:	Header files for CSA library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki CSA
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki CSA
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
 %description devel
 Header files for CSA library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki CSA.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki CSA.
 
 %package static
 Summary:	Static CSA library
-Summary(pl):	Statyczna biblioteka CSA
+Summary(pl.UTF-8):   Statyczna biblioteka CSA
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static CSA library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka CSA.
 
 %prep
